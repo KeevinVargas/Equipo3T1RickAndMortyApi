@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 60px;
+}
+
+body{
+    text-align: center;
+    margin:30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(220,220,220,1) 0%, rgba(0,212,255,1) 100%);
+}
+#resultado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap:30px 10px;
+}
+
+#resu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap:30px 10px;
+}
+                            
